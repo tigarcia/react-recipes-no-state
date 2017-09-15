@@ -1,8 +1,7 @@
 .recipe-list {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  align-items: space-around;
+  flex-wrap: wrap;
 }
 
 @media (max-width: 580px) {

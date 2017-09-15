@@ -7,7 +7,17 @@ class App extends Component {
     return (
       <div>
         <header>
-          <h1>My Recipe Book</h1>
+          <h2><a>Recipe App</a></h2>
+          <nav>
+            <li>
+              <a onClick={() => this.setState({showForm: true})}>
+                New Recipe
+              </a>
+            </li>
+            <li><a>Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Contact Us</a></li>
+          </nav>
         </header>
         <RecipeList />
       </div>
